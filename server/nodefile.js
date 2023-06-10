@@ -3,7 +3,7 @@ const mongoose=require('./connection')
 const cors=require('cors')
 
 const admincontroller=require('./apis/admin/admincontroller')
-const adminroutes=require('./Routes/adminroutes')
+const adminroutes=require('./routes/adminroutes')
 const customerroutes=require('./routes/customerroutes');
 
 const app=express();
