@@ -4,9 +4,6 @@
   "scripts": {
     "ng": "ng",
     "start": "node server/nodefile",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
   },
   "private": true,
   "dependencies": {
