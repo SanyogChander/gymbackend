@@ -1,0 +1,50 @@
+{
+  "name": "gymproject",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "node server/nodefile",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.2.11",
+    "@angular/common": "^14.2.11",
+    "@angular/compiler": "^14.2.11",
+    "@angular/core": "^14.2.11",
+    "@angular/forms": "^14.2.11",
+    "@angular/platform-browser": "^14.2.11",
+    "@angular/platform-browser-dynamic": "^14.2.11",
+    "@angular/router": "^14.2.11",
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "ngx-toastr": "^15.0.0",
+    "ngx-ui-loader": "^13.0.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.22",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.2",
+    "@angular/cli": "~14.2.2",
+    "@angular/compiler-cli": "^14.2.0",
+    "@types/jasmine": "~4.0.0",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~4.7.2"
+  }
+}
